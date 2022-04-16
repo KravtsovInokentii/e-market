@@ -13,7 +13,7 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
   border-radius: 20px;
-  max-width: 1300px;
+  max-width: 1100px;
   margin: 50px auto;
   
 }
@@ -36,21 +36,12 @@ header {
 }
 
 
-// .button {
-//   background: #ffffff;
-//   border: 1px solid #ffeaea;
-//   box-sizing: border-box;
-//   border-radius: 10px;
-//   height: 40px;
-//   width: 40px;
-//   cursor: pointer;
-// }
-
-
 .search-block {
   border: 1px solid #ffeaea;
   border-radius: 10px;
   padding: 0 15px;
+  
+  
 
   input {
     border: 0;
@@ -99,7 +90,7 @@ header {
       display: flex;
       align-items: flex-end;
       padding: 10px;
-      margin: 0 30px;
+      margin: 2 30px;
       font-size: 20px;
       
       div {
@@ -120,6 +111,7 @@ header {
 
   .greenButton {
     position: relative;
+
     
     &:hover {
       img {
@@ -160,7 +152,7 @@ header {
 
 .cartItem {
   border: 1px solid #373737;
-  border-radius: 20px;
+  border-radius: 10px;
   overflow: hidden;
   padding: 20px;
 
@@ -170,7 +162,7 @@ header {
     width: 100px;
     background-size: cover;
     background-position: center;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 
   p {
